@@ -1,0 +1,159 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
+  <diagram name="Login Swimlane with Exceptions" id="0">
+    <mxGraphModel dx="1904" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="laneUser" value="" style="shape=rectangle;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry y="-120" width="300" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="laneSystem" value="" style="shape=rectangle;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="300" y="-120" width="730" height="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="step2" value="2. System displays login form" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="120" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="4FQsQoxk3Tdy6DsLGxpX-14" target="4FQsQoxk3Tdy6DsLGxpX-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="310.090909090909" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-12" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="step7" target="E7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TAlAUXmZdhqrAX3JB5U-5" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="4FQsQoxk3Tdy6DsLGxpX-12">
+          <mxGeometry x="-0.0759" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="step7" value="7. Credentials valid?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="715" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-17" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="step8" target="4FQsQoxk3Tdy6DsLGxpX-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="step8" value="8. System grants access and shows dashboard" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="810" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-6" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="E5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E5" value="E-5: Missing fields → System shows error &#39;Please fill in all required fields&#39;" style="rounded=1;fillColor=#ffe6cc;strokeColor=#d79b00;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="425" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-5" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="E6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E6" value="E-6: Account locked → &#39;Your account is locked. Contact admin&#39;" style="rounded=1;fillColor=#f8cecc;strokeColor=#b85450;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="560" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E7" value="E-7: Invalid username/password → &#39;Invalid username or password&#39;" style="rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="715" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="1" target="step2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="262.5" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c2" parent="1" source="step2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="262.5" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c3" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="260" as="sourcePoint" />
+            <mxPoint x="150" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c4" style="strokeColor=none;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="252.5" y="305.75" as="sourcePoint" />
+            <mxPoint x="647.5" y="313.71875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c5" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="485" as="sourcePoint" />
+            <mxPoint x="790" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TAlAUXmZdhqrAX3JB5U-2" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="c5">
+          <mxGeometry x="-0.1218" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6" parent="1" target="step7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="790" y="620" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2TAlAUXmZdhqrAX3JB5U-4" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="c6">
+          <mxGeometry x="-0.0454" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c7" parent="1" source="step7" target="step8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TAlAUXmZdhqrAX3JB5U-6" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="c7">
+          <mxGeometry x="-0.0394" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cBackE7" style="edgeStyle=orthogonalEdgeStyle;" parent="1" source="E7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="150" y="750" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-10" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="4FQsQoxk3Tdy6DsLGxpX-1" target="E5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TAlAUXmZdhqrAX3JB5U-1" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="4FQsQoxk3Tdy6DsLGxpX-10">
+          <mxGeometry x="0.0135" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-1" value="5. form fields not empty?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="425" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-11" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="4FQsQoxk3Tdy6DsLGxpX-4" target="E6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2TAlAUXmZdhqrAX3JB5U-3" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="4FQsQoxk3Tdy6DsLGxpX-11">
+          <mxGeometry x="-0.0608" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-4" value="6. Is account locked?" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="560" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-9" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="4FQsQoxk3Tdy6DsLGxpX-7" target="4FQsQoxk3Tdy6DsLGxpX-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-7" value="Start" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="95" y="-100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-8" value="1. User navigates to login page" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-13" value="3. User enters username and password" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="35" y="200" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-14" value="4. User clicks &#39;Login&#39; button" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="35" y="280" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4FQsQoxk3Tdy6DsLGxpX-16" value="End" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="730" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

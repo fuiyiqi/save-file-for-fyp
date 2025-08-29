@@ -1,0 +1,55 @@
+UC001 Log in to the System
+The user enters their credentials to access the ticketing system.
+UC002 Add New User Accounts
+An admin creates accounts for new users with specific roles and permissions.
+
+Ticket Management
+UC003 Create New Ticket
+A user submits a new issue or request with necessary details.
+UC004 View List of Tickets
+A user views all tickets assigned to them or available in the system.
+UC005 Search or Filter Tickets
+A user searches for tickets or applies filters based on status, priority, category, or other attributes.
+UC006 View Ticket by Calendar
+A user views tickets based on their scheduled dates or deadlines in a calendar format.
+UC007 View Ticket Details
+A user opens a ticket to see full details, history, and updates.
+UC008 Edit Ticket Details
+A user updates ticket information such as description, priority, or category.
+UC009 Assign Ticket
+A project manager or admin assigns a ticket to a specific user or team.
+UC010 Resolve Ticket
+A user updates a ticket’s status to resolved after completing the work.
+UC011 Add Template for Similar Issue Response
+A user creates reusable response templates for recurring issues.
+
+Notification & Communication
+UC012 View Notifications
+A user views alerts for ticket assignments, updates, and SLA breaches.
+UC013 Send Notifications (XXXXXXXXXXXXXXXXXXXXXXX SKIP UC Description) 
+The system or user sends alerts to relevant stakeholders about ticket changes or updates.
+
+Project & Knowledge Management
+UC014 Create New Project
+An admin or project manager sets up a new project in the system.
+UC015 Create New Subproject
+An admin or project manager creates a subproject under an existing project.
+UC016 View Project Documents
+A user views project-related documents stored in the system.
+UC017 View Knowledge Base
+A user accesses the knowledge base for troubleshooting guides and FAQs.
+
+Configuration & Administration
+UC018 Configure Project Settings
+An admin updates project-specific configurations.
+
+UC018.2 Generate Reports
+
+UC019 Manage Project Members
+An admin adds, removes, or changes roles of members in a project.
+UC020 Configure SLA Rules
+An admin sets up service-level agreement rules for ticket resolution timelines.
+UC021 Set Automation Rules for Ticket Assignment
+An admin configures automated ticket routing to specific agents based on criteria.
+UC022 Add New Skills
+An admin updates the skill list for agents to aid in ticket assignment.
